@@ -1,0 +1,36 @@
+name: flower
+description: "A new Flutter project."
+publish_to: 'none'  
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.17.0 <4.0.0'  
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  dotted_line: ^3.2.2  
+  firebase_core: ^2.24.0
+  firebase_auth: ^4.15.0
+
+  provider: ^6.0.1
+  http: ^0.13.3
+  shared_preferences: ^2.0.15
+  localstorage: ^4.0.1+4
+  firebase_database: ^10.4.9
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+  carousel_slider: ^4.0.0
+  
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+
+    
