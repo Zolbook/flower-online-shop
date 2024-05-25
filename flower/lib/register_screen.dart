@@ -45,7 +45,7 @@ class RegisterScreen extends StatelessWidget {
     } catch (error) {
       print(' $error');
       ScaffoldMessenger.of(context).showSnackBar(
-        SnackBar(content: Text('Алдаа гарлаа')),
+        SnackBar(content: Text('Алдаа')),
       );
     }
   }
