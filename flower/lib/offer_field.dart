@@ -63,9 +63,9 @@ class _OfferFieldState extends State<OfferField> {
               children: [
                 Column(
                   children: [
-                    Text('санал болгох', style: TextStyle(fontSize: 16.0, fontWeight: FontWeight.w600)),
+                    Text('Танд санал болгох', style: TextStyle(fontSize: 16.0, fontWeight: FontWeight.w600)),
                     SizedBox(height: 8.0),
-                    Text('30%', style: TextStyle(fontSize: 24.0, fontWeight: FontWeight.bold, color: Colors.red)),
+                    Text('50% хүртэл', style: TextStyle(fontSize: 24.0, fontWeight: FontWeight.bold, color: Colors.red)),
                     SizedBox(height: 8.0),
                     Text('хямдарлаа', style: TextStyle(fontSize: 14.0, fontWeight: FontWeight.bold)),
                     SizedBox(height: 16.0),
