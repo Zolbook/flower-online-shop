@@ -17,7 +17,7 @@ class AddToCartButton extends StatelessWidget {
         primary: Color(0xffE975A8),
         onPrimary: Colors.white, 
       ),
-      child: Text('Сагслах'),
+      child: Text('Сагсанд нэмэх'),
     );
   }
 }
