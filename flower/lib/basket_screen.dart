@@ -28,7 +28,7 @@ class BasketScreenState extends State<BasketScreen> {
               leading: Image.network(flower.image_url, width: 50, height: 50),
               title: Text(flower.name),
 
-              subtitle: Text('Тоо ширхэг: $quantity'),
+              subtitle: Text('Тоо: $quantity'),
 
               trailing: Expanded(
                   child: Row(mainAxisSize: MainAxisSize.min, children: [
